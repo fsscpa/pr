@@ -82,9 +82,6 @@ $(document).ready(function(){
 				<style type="text/css" data-cssvars="skip" data-cssvars-job="1">
 					body #oacxEmbededContents header .logo { position: absolute; width: 120px; right: 2rem; top: 0; background: url(/esign/img/logo.png) center center no-repeat; background-size: contain; }
 				</style>
-        <style type="text/css">
-        table {font-size: 9pt;}
-        </style>
 				<script src="https://cpa.fss.or.kr/esign/oacx-vendor.js" charset="UTF-8"></script>
 				<script src="https://cpa.fss.or.kr/esign/oacx-ux.js" charset="UTF-8"></script>
 				<script type="text/javascript" charset="UTF-8">
@@ -184,7 +181,7 @@ $(document).ready(function(){
 			<li><a href="https://cpa.fss.or.kr/cpa/etc/sitemap.action"><img src="https://cpa.fss.or.kr/images/common/tnb02.gif" alt="사이트맵"></a></li>
 
 
-			<li><a href="https://fsscpa.github.io/pr/login.html"><img src="https://cpa.fss.or.kr/images/common/tnb07.gif" alt="로그아웃"></a></li>
+			<li><a href="https://fsscpa.github.io/pr/login_html"><img src="https://cpa.fss.or.kr/images/common/tnb07.gif" alt="로그아웃"></a></li>
 			<li><a href="https://cpa.fss.or.kr/cpa/member/member_edit.action"><img src="https://cpa.fss.or.kr/images/common/tnb08.gif" alt="내정보수정"></a></li>
 
 			<li><a href="https://cpa.fss.or.kr/cpa/member/my_doc_view.action"><img src="https://cpa.fss.or.kr/images/common/tnb06.gif" alt="내문서보기"></a></li>
@@ -444,87 +441,28 @@ $(document).ready(function(){
 //]]>
 </script>
 
-				<form action="2022_1st_match.html" method="post">
-				<fieldset>
+					<fieldset>
 					<legend>자료검색</legend>
 					<div class="search_box">
 						<label for="search01" class="search_box_bul">시험년도</label>
 						<select id="search01" name="searchYear" title="카테고리 검색" style="width:119px;" class="ml05">
-							<option value="2022">2022년</option>
-              <option value="2021">2021년</option><option value="2020">2020년</option><option value="2019">2019년</option><option value="2018">2018년</option><option value="2017">2017년</option><option value="2016">2016년</option><option value="2015">2015년</option><option value="2014">2014년</option><option value="2013">2013년</option><option value="2012">2012년</option><option value="2011">2011년</option><option value="2010">2010년</option><option value="2009">2009년</option><option value="2008">2008년</option><option value="2007">2007년</option><option value="">선택하세요</option>
+							<option value="">선택하세요</option>
+							<option value="2022">2022년</option><option value="2021">2021년</option><option value="2020">2020년</option><option value="2019">2019년</option><option value="2018">2018년</option><option value="2017">2017년</option><option value="2016">2016년</option><option value="2015">2015년</option><option value="2014">2014년</option><option value="2013">2013년</option><option value="2012">2012년</option><option value="2011">2011년</option><option value="2010">2010년</option><option value="2009">2009년</option><option value="2008">2008년</option><option value="2007">2007년</option>
 						</select>
 						<label for="search02" class="search_box_bul ml20">시험차수</label>
 						<select id="search02" name="searchDept" title="카테고리 검색" style="width:119px;" class="ml05">
+							<option value="">선택하세요</option>
 							<option value="1">1차</option>
 							<option value="2">2차</option>
-              <option value="">선택하세요</option>
-        		</select>
-						<input type="image" src="https://cpa.fss.or.kr/images/common/btn/btn_views.gif" alt="조회">
+						</select>
+						<input type="image" src="https://cpa.fss.or.kr/images/common/btn/btn_views.gif" alt="조회" onclick="location.href='https://fsscpa.github.io/pr/2022_1st_match.html';" />
 					</div>
 					</fieldset>
 				</form>
-        <p class="bul_02">
+					<p class="bul_02">
+					먼저 시험년도와 시험차수를 선택해 주세요.
 
-          <span class="fb_blue">김현조</span>님의 시험성적 조회 내용입니다.
-        </p>
-
-
-
-
-
-        <table class="t_data" summary="성적확인의 시험년도, 시험차수, 경영학, 경제원론, 상법, 세법개론, 회계학, 영어, 평균, 합계 정보 제공">
-          <caption>성적확인</caption>
-          <colgroup>
-            <col width="12%">
-            <col width="12%">
-            <col width="10%">
-            <col width="10%">
-            <col width="10%">
-            <col width="10%">
-            <col width="9%">
-            <col width="9%">
-            <col width="9%">
-            <col width="9%">
-          </colgroup>
-          <thead>
-            <tr>
-              <th scope="col">시험년도</th>
-              <th scope="col">시험차수</th>
-              <th scope="col">경영학</th>
-              <th scope="col">경제원론</th>
-              <th scope="col">상법</th>
-              <th scope="col">세법개론</th>
-              <th scope="col">회계학</th>
-              <th scope="col">영어</th>
-              <th scope="col">평균</th>
-              <th scope="col" class="last">합계</th>
-            </tr>
-          </thead>
-          <tbody>
-
-
-            <tr>
-              <td>2022</td>
-              <td>1차</td>
-              <td>80</td>
-              <td>80</td>
-              <td>80</td>
-              <td>80</td>
-              <td>80</td>
-              <td></td>
-              <td>80</td>
-              <td>400</td>
-            </tr>
-
-
-          </tbody>
-        </table>
-
-
-
-
-
-        <p class="bul_02">위 성적에 관한 문의는 <span class="f_blue">공인회계사시험관리팀(TEL (02) 3145-7757, 7760)</span>로 문의</p>
+					</p>
 
 
 
@@ -545,38 +483,33 @@ $(document).ready(function(){
 
 
 
-    <div class="department">
-      <ul>
 
-        <li class="ico01"><strong>담당부서</strong><span>공인회계사시험관리팀</span></li>
+			<div class="department">
+				<ul>
 
-
-
-
-        <li class="ico02 mr0">
-          <strong>전화번호</strong>
-          <span>
-
-          02-3145-7757
-
-
-          </span>
-        </li>
-
-
-
-      </ul>
-    </div>
-
-
-
-  </div><!-- // contents -->
+					<li class="ico01"><strong>담당부서</strong><span>공인회계사시험관리팀</span></li>
 
 
 
 
+					<li class="ico02 mr0">
+						<strong>전화번호</strong>
+						<span>
+
+						02-3145-7757
 
 
+						</span>
+					</li>
+
+
+
+				</ul>
+			</div>
+
+
+
+		</div><!-- // contents -->
 
 
 	<div id="quick" style="top: 0px;">
