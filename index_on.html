@@ -1,0 +1,961 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//	원서접수 중단 페이지
+//	location.href="https://cpa.fss.or.kr/fss/common/err/noservice.html";
+</script>
+<meta name="WT.cg_n" content="CP2000000000000-공인회계사시험">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="description" content="공인회계사시험, CPA, 공인회계사">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="금융감독원 공인회계사시험">
+  <meta property="og:image" content="http://cpa.fss.or.kr/images/common/logo.gif">
+  <meta property="og:url" content="http://cpa.fss.or.kr">
+<title>공인회계사시험 | 금융감독원 공인회계사시험</title>
+<link rel="stylesheet" type="text/css" media="all" href="https://cpa.fss.or.kr/css/css.css" data-cssvars="skip" data-cssvars-job="1">
+<link rel="stylesheet" type="text/css" media="all" href="https://cpa.fss.or.kr/css/jquery-ui.css" data-cssvars="skip" data-cssvars-job="1">
+<script type="text/javascript" src="https://cpa.fss.or.kr/js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="https://cpa.fss.or.kr/js/jquery-ui.js"></script>
+<script type="text/javascript" src="https://cpa.fss.or.kr/pluginfree/jsp/nppfs.script.jsp"></script>
+<script type="text/javascript" src="https://cpa.fss.or.kr/pluginfree/js/nppfs-1.13.0_euckr.js"></script>
+<script type="text/javascript" src="https://cpa.fss.or.kr/js/menu_model.js"></script>
+<script type="text/javascript" src="https://cpa.fss.or.kr/js/menu_model2.js"></script>
+<script type="text/javascript" src="https://cpa.fss.or.kr/js/common.js"></script>
+<script type="text/javascript" src="https://cpa.fss.or.kr/js/tab.js"></script>
+
+<script type="text/javascript" src="https://cpa.fss.or.kr/js/makePCookie.js"></script>
+	<!-- AceCounter Log Gathering Script V.71.2010011401 -->
+	<script language="javascript">
+	if(typeof _GUL == 'undefined'){
+	var _GUL = 'wlg.fss.or.kr';var _GPT='80'; var _SGPT='443';var _AIMG = new Image(); var _bn=navigator.appName; var _PR = location.protocol=="https:"?"https://"+_GUL+":"+_SGPT:"http://"+_GUL+":"+_GPT;if( _bn.indexOf("Netscape") > -1 || _bn=="Mozilla"){ setTimeout("_AIMG.src = _PR+'/?cookie';",1); } else{ _AIMG.src = _PR+'/?cookie'; };
+	document.writeln("<scr"+"ipt language='javascript' src='/js/acecounter_V70.js'></scr"+"ipt>");
+	}
+	</script><script language="javascript" src="https://cpa.fss.or.kr/js/acecounter_V70.js"></script>
+
+	<noscript><img src='http://wlg.fss.or.kr:80/?uid=19&je=n&' border=0 width=0 height=0 alt="" /></noscript>
+	<!-- AceCounter Log Gathering Script End -->
+
+
+<script type="text/javascript">
+//<![CDATA[
+//활성화페이지 보여질부분조절
+ $.fx.speeds._default = 1000;
+$(document).ready(function(){
+
+	$('#nav').menuModel1({hightLight:{level_1:0,level_2:0,level_3:0},target_obj:'#header',showOps:{visibility:'visible'},hideOps:{visibility:'hidden'}});
+
+	$('#ups').click(function(){
+		var mem=$('body');
+		var thisSize=parseInt(mem.css('font-size'));
+		var maxSize=20;
+		if(thisSize<maxSize)
+			mem.css('font-size',(thisSize+2)+"px");
+		else alert("더이상 크게할수 없습니다.");
+		return false;
+	});
+	$('#dns').click(function(){
+		var mem=$('body');
+		var thisSize=parseInt(mem.css('font-size'));
+		var maxSize=12;
+		if(thisSize>maxSize)
+			mem.css('font-size',(thisSize-2)+"px");
+		else alert("더이상 작게할수 없습니다.");
+		return false;
+	});
+	$('#overs').click(function(){
+		$('body').css('font-size',"12px");
+		return false;
+	});
+});
+//]]>
+</script>
+</head>
+<body>
+
+				<link rel="stylesheet" href="https://cpa.fss.or.kr/esign/oacx-ux.css" data-cssvars="skip" data-cssvars-job="1">
+				<style type="text/css" data-cssvars="skip" data-cssvars-job="1">
+					body #oacxEmbededContents header .logo { position: absolute; width: 120px; right: 2rem; top: 0; background: url(/esign/img/logo.png) center center no-repeat; background-size: contain; }
+				</style>
+				<script src="https://cpa.fss.or.kr/esign/oacx-vendor.js" charset="UTF-8"></script>
+				<script src="https://cpa.fss.or.kr/esign/oacx-ux.js" charset="UTF-8"></script>
+				<script type="text/javascript" charset="UTF-8">
+
+					/* 간편인증 */
+					function simpleCert(certType) {
+						$("html").addClass("oacxHtml");
+						var json = {
+								contentInfo: {
+									signType: "GOV_SIMPLE_AUTH"
+								},
+								userInfo: {
+									name:"",	   //이름 (ex 홍길동)
+									phone1:"",	 //휴대폰번호 앞자리 3자리 (ex 010)
+									phone2:"",	 //휴대폰번호 뒷자리 7,8자리 (ex 12345678)
+									telcoTycd: "", //통신사 (ex S,K,L)
+									ssn1: "",	  //주민등록번호 앞자리 (ex 900101)
+									ssn2: "",	  //주민등록번호 뒷자리 (ex 1999999)
+									birthday:""	//생년월일 (ex 19900101)
+								},
+								compareCI: true,
+								isBirth: false
+						};
+
+
+						OACX.options.callback.ajax.success.getToken = function(){
+							// alert("Success - Get Token")
+						}
+						OACX.options.callback.ajax.success.providerList = function(){
+							// alert("Success - Get Provider List")
+						}
+						OACX.options.callback.ajax.success.authRequest = function(){
+							// alert("Success - Request")
+						}
+						OACX.options.callback.ajax.success.authComplete = function(){
+							// alert("Success - Complete")
+						}
+						OACX.options.callback.ajax.fail.getToken = function(){
+							// alert("Fail - Get Token")
+						}
+						OACX.options.callback.ajax.fail.providerList = function(){
+							// alert("Fail - Get Provider List")
+						}
+						OACX.options.callback.ajax.fail.authRequestAlertConfirm = function(){
+							// alert("Fail - Request Error AlertConfirm Event")
+						}
+						OACX.options.callback.ajax.fail.authCompleteAlertConfirm = function(){
+							// alert("Fail - Complete Error AlertConfirm Event")
+						}
+						OACX.options.callback.ajax.fail.authRequest = function(){
+							// alert("Fail - Request")
+						}
+						OACX.options.callback.ajax.fail.authComplete = function(){
+							// alert("Fail - Complete")
+						}
+						OACX.options.callback.event.close = function(){
+							// alert("Event Close")
+							$("html").removeClass("oacxHtml");
+						}
+						OACX.options.callback.loaded = function(){
+							// alert("Loaded")
+						}
+						OACX.LOAD_MODULE("/esign/config/config.auth.json",json, function(res){
+							//Success handler
+							var jsonData = JSON.parse(res);
+							$.post("/common/namecheck/esign/esign_success.jsp", {token : jsonData.token, certType : certType},function(data) {
+								jsonData = JSON.parse(data);
+								if(jsonData.result == 'T') {
+									if(jsonData.certType == 'R') {
+										document.xecure.submit();
+									} else {
+										alert("확인이 완료 되었습니다.");
+
+										document.getElementById("ipinSucces").innerHTML="본인확인 완료";
+										document.execute_frm.ipinYn.value="Y";
+									}
+								} else {
+									alert('본인인증이 실패하였습니다.');
+ 								}
+ 							});
+						});
+					}
+				</script>
+				<div id="oacxDiv"></div>
+<div id="wrap">
+
+	<div id="skipNavigation">
+		<a href="#m_contents">본문내용 바로가기</a>
+		<a href="#gnb">주메뉴 바로가기</a>
+</div>
+
+	<div id="header">
+		<h1><a href="https://cpa.fss.or.kr/main.action"><img src="https://cpa.fss.or.kr/images/common/logo.gif" alt="금융감독원 공인회계사시험"></a></h1>
+		<ul class="tnb">
+			<li><a href="https://cpa.fss.or.kr/main.action"><img src="https://cpa.fss.or.kr/images/common/tnb01.gif" alt="HOME"></a></li>
+			<li><a href="https://cpa.fss.or.kr/cpa/etc/sitemap.action"><img src="https://cpa.fss.or.kr/images/common/tnb02.gif" alt="사이트맵"></a></li>
+
+
+			<li><a href="index.html"><img src="https://cpa.fss.or.kr/images/common/tnb07.gif" alt="로그아웃"></a></li>
+			<li><a href="https://cpa.fss.or.kr/cpa/member/member_edit.action"><img src="https://cpa.fss.or.kr/images/common/tnb08.gif" alt="내정보수정"></a></li>
+
+			<li><a href="https://cpa.fss.or.kr/cpa/member/my_doc_view.action"><img src="https://cpa.fss.or.kr/images/common/tnb06.gif" alt="내문서보기"></a></li>
+			<li class="last"><img src="https://cpa.fss.or.kr/images/common/tnb05.gif" alt="폰트"><span><a href="javascript:void(0);" id="ups"><img src="https://cpa.fss.or.kr/images/common/btn_plus.gif" alt="크게"></a><a href="javascript:void(0);" id="dns"><img src="https://cpa.fss.or.kr/images/common/btn_minus.gif" alt="작게"></a><a href="javascript:void(0);" id="overs"><img src="https://cpa.fss.or.kr/images/common/btn_reset.gif" alt="기본 크기로 변경"></a></span></li>
+		</ul>
+
+		<div id="gnb">
+		<ul id="nav">
+
+					<li id="mNavi01">
+					<a href="https://cpa.fss.or.kr/cpa/guide/exam_pblanc_list.action" class="">
+						<img src="https://cpa.fss.or.kr/images/common/mNavi01.gif" alt="시험안내"></a>
+
+
+								<ul style="visibility: hidden;">
+
+										<li><a href="https://cpa.fss.or.kr/cpa/guide/exam_pblanc_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0106.gif" alt="시험공고"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/guide/notice_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0107.gif" alt="공지사항"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/guide/history.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0101.gif" alt="시험연혁"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/guide/system1.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0102.gif" alt="시험제도안내"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/guide/process.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0103.gif" alt="시험시행일정"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/guide/faq_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0108.gif" alt="자주묻는질문"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/guide/laword1.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0109.gif" alt="관계법령"></a></li>
+
+									</ul>
+
+							</li>
+
+					<li id="mNavi02">
+					<a href="https://cpa.fss.or.kr/cpa/papers/persuade/reqst_form.action?catmenu=CP_03_01" class="">
+						<img src="https://cpa.fss.or.kr/images/common/mNavi02.gif" alt="시험서류접수"></a>
+
+
+								<ul style="visibility: hidden;">
+
+										<li><a href="https://cpa.fss.or.kr/cpa/papers/persuade/reqst_form.action?catmenu=CP_03_01"><img src="https://cpa.fss.or.kr/images/common/mNavi0201.gif" alt="학점인정신청"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/papers/english/reqst_form.action?catmenu=CP_03_02"><img src="https://cpa.fss.or.kr/images/common/mNavi0202.gif" alt="영어성적인정신청"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/papers/subject/reqst_form.action?catmenu=CP_03_03"><img src="https://cpa.fss.or.kr/images/common/mNavi0203.gif" alt="과목인정신청"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/papers/exemp/reqst_form.action?catmenu=CP_03_04" class="hover"><img src="https://cpa.fss.or.kr/images/common/mNavi0204_on.gif" alt="경력자제1차시험면제신청"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/papers/label/label_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0205.gif" alt="봉투레이블출력"></a></li>
+
+									</ul>
+
+							</li>
+
+					<li id="mNavi03">
+					<a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_01" class="">
+						<img src="https://cpa.fss.or.kr/images/common/mNavi03.gif" alt="원서접수"></a>
+
+
+								<ul style="visibility: hidden;">
+
+										<li><a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_01"><img src="https://cpa.fss.or.kr/images/common/mNavi0301.gif" alt="원서접수안내"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_02"><img src="https://cpa.fss.or.kr/images/common/mNavi0302.gif" alt="원서접수"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_03" class=""><img src="https://cpa.fss.or.kr/images/common/mNavi0303.gif" alt="원서조회/수정"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_05_05"><img src="https://cpa.fss.or.kr/images/common/mNavi0304.gif" alt="원서접수 취소"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_05_04"><img src="https://cpa.fss.or.kr/images/common/mNavi0305.gif" alt="응시료 결제"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_05" class=""><img src="https://cpa.fss.or.kr/images/common/mNavi0306.gif" alt="접수증 출력"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_06" class=""><img src="https://cpa.fss.or.kr/images/common/mNavi0307.gif" alt="응시표 출력"></a></li>
+
+									</ul>
+
+							</li>
+
+					<li id="mNavi04">
+					<a href="https://cpa.fss.or.kr/cpa/reqst/first/noss/objc_ldgg_mth.action" class="">
+						<img src="https://cpa.fss.or.kr/images/common/mNavi04.gif" alt="각종확인·신청"></a>
+
+
+								<ul style="visibility: hidden;">
+
+										<li><a href="https://cpa.fss.or.kr/cpa/reqst/first/noss/objc_ldgg_mth.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0401.gif" alt="제1차시험이의제기"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/reqst/second/noss/objc_ldgg_mth.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0407.gif" alt="제2차시험문제이의제기"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/reqst/psexam_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0402.gif" alt="합격자"></a></li>
+
+										<li><a href="5.html"><img src="https://cpa.fss.or.kr/images/common/mNavi0403.gif" alt="성적확인"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/reqst/exam_scre_ctrf.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0404.gif" alt="시험성적증명서"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/reqst/psexam_cnfirm.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0405.gif" alt="시험합격사실확인서"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/reqst/first_aswper_readng.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0406.gif" alt="답안지 열람신청"></a></li>
+
+									</ul>
+
+							</li>
+
+					<li id="mNavi05">
+					<a href="https://cpa.fss.or.kr/cpa/pds/recon_subject_list.action" class="">
+						<img src="https://cpa.fss.or.kr/images/common/mNavi05.gif" alt="자료실"></a>
+
+
+								<ul style="visibility: hidden;">
+
+										<li><a href="https://cpa.fss.or.kr/cpa/pds/recon_subject_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0501.gif" alt="학점인정과목검색"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/pds/ques_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0502.gif" alt="기출문제"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/pds/stats_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0503.gif" alt="통계자료"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/pds/etc_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0504.gif" alt="기타 서식·자료"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/pds/qna_list.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0505.gif" alt="질문답변(Q&amp;A)"></a></li>
+
+									</ul>
+
+							</li>
+
+					<li id="mNavi06">
+					<a href="https://cpa.fss.or.kr/cpa/etc/sitemap.action" class="">
+						<img src="https://cpa.fss.or.kr/images/common/mNavi07.gif" alt="기타메뉴"></a>
+
+
+								<ul style="visibility: hidden;">
+
+										<li><a href="https://cpa.fss.or.kr/cpa/etc/sitemap.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0702.gif" alt="사이트맵"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/etc/job_charger.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0704.gif" alt="업무담당자 안내"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/etc/map.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0705.gif" alt="찾아오시는길"></a></li>
+
+										<li><a href="https://cpa.fss.or.kr/cpa/etc/site.action"><img src="https://cpa.fss.or.kr/images/common/mNavi0706.gif" alt="연결사이트"></a></li>
+
+									</ul>
+
+							</li>
+
+			</ul>
+		</div>
+
+	</div>
+<!-- // header -->
+	<div id="m_container">
+		<div id="container">
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+	 $(function() {
+	        $( ".p_warp" ).dialog({
+	            autoOpen: false,
+	            show: "blind",
+	            hide: "down"
+	        });
+
+	        $( "#help" ).click(function() {
+	        	$( ".p_warp" ).dialog({ resizable: false });
+	        	$( ".p_warp" ).dialog( "option","minWidth",600 );
+	        	$( ".p_warp" ).dialog( "option","minHeight",600 );
+				$( ".p_warp" ).dialog( "open" );
+				$('.ui-dialog').attr('tabindex', '0'); //웹접근성
+				$('.ui-dialog').css('outline', ''); //웹접근성
+	            return false;
+	        });
+	 });
+		function fn_open_popup2( sUrl, winName, popw, poph, scr ) {
+		    var leftPosition = ( screen.width-popw > 0 )?(screen.width-popw)/2:(screen.availWidth-popw)/2;
+		    var topPosition = ( screen.height-poph > 0 )?(screen.height-poph)/2:(screen.availHeight-poph)/2;
+		    var winStyle = "width="+popw+", height="+poph+", left="+leftPosition+", top="+topPosition+", toolbar=no, resizable=yes, scrollbars="+scr;
+		    var popupStatus = window.open( sUrl, winName, winStyle );
+
+		    //popupStatus.document.title = "test";
+		    $(popupStatus).focus();
+		    //popupStatus.onload = function(){this.document.title = titleTx;}
+
+		}
+
+		function movies(a){
+			h = a.getAttribute("href");
+			t = a.textContent;
+			$("#movieTx").val(t);
+			fn_open_popup2("/cpa/etc/movie.action?file="+h,"winrecivepop",1000,660,"no");
+			    return false;
+		}
+
+ function getCookie(name) {
+
+	var Found = false;
+	var start, end;
+	var i = 0;
+
+	while(i <= document.cookie.length) {
+		start = i;
+		end = start + name.length
+
+		if(document.cookie.substring(start, end) == name) {
+			Found = true;
+			break;
+		}
+		i++;
+	}
+
+	if(Found == true) {
+		start = end + 1;
+		end = document.cookie.indexOf(";", start);
+
+		if(end < start)
+			end = document.cookie.length;
+		return document.cookie.substring(start, end);
+	}
+	return "";
+}
+
+//홈페이지 서비스 안내 팝업
+	if (getCookie("stopservice_cpa") != "no")	{
+// 		window.open('/pop/stopservice.html', 'stopservice_cpa','width=740,height=540,left=620,top=0,status=0,scrollbars=0');
+	}
+
+//	공인회계사 제1차시험 장소 및 시간 안내
+/*
+	if (getCookie("examinfo") != "no")	{
+			window.open('/pop/cpa_examinfo.html', 'examinfo','width=650,height=700,left=500,top=0,status=0,scrollbars=1');
+	}
+*/
+
+//	공인회계사 제2차시험 장소 및 시간 안내
+/*
+	if (getCookie("examinfo_2") != "no")	{
+			window.open('/pop/cpa_examinfo_2.html', 'examinfo_2','width=620,height=770,left=0,top=0,status=0,scrollbars=1');
+	}
+*/
+
+//	2022 1차 원서접수 주의사항 안내
+/*
+	if (getCookie("info_1cha") != "no") {
+		window.open('/pop/wonseo_info_1cha.html', 'info_1cha','width=680,height=740,left=630,top=0,status=0,scrollbars=1');
+	}
+*/
+
+//	2020 1차 서류 접수시 유의사항
+	if (getCookie("info_plan") != "no") {
+//		window.open('/pop/cpa_info_plan.html', 'info_plan','width=650,height=620,left=100,top=0,status=0,scrollbars=1');
+	}
+
+//	공인회계사 제1차 시험 서류제출기한 안내팝업(영어성적)
+/**
+	if (getCookie("examdoc_info") != "no") {
+		window.open('/pop/examdoc_info.html', 'examdoc_info','width=560,height=570,left=10,top=0,status=0,scrollbars=0');
+	}
+**/
+
+//	공인회계사 제1차 시험 서류제출기한 안내팝업
+	if (getCookie("2examdoc") != "no") {
+//		window.open('/pop/examdoc_info2.html', '2examdoc','width=500,height=400,left=10,top=0,status=0,scrollbars=0');
+	}
+
+// 시험장 안전관리 대책
+	if (getCookie("notice_20150623") != "no")	{
+//		window.open('/pop/2015_examinfo_0623.html', 'noti_cpa_20150515', 'width=620,height=760,left=30,top=30,scrollbars=0,resize=1');
+	}
+
+//	2021년도 공인회계사시험 1차합격자 발표 --위치옮김
+/*
+	if (getCookie("exam55") != "no")	{
+		window.open('/pop/cpa_21_01_04.html', 'examResult56','width=820,height=850,left=100,top=0,status=0,scrollbars=1');
+	}
+*/
+
+
+//	2차시험 응시원서 접수 안내
+/*
+	if (getCookie("examinfo2") != "no")	{
+		window.open('/pop/wonseo_info_2cha.html', 'examinfo2','width=670,height=740,left=50,top=0,status=0,scrollbars=1');
+	}
+*/
+
+//	2022년도 공인회계사시험 서류 접수계획 공고
+/*
+if (getCookie("examinfoplan") != "no")	{
+		window.open('/pop/cpa_examinfo_plan.html', 'examinfoplan','width=600,height=530,left=20,top=0,status=0,scrollbars=1');
+	}
+*/
+
+//	2022년도 제57회 공인회계사 제1차시험 응시표 출력 안내
+	if (getCookie("examPrint") != "no")	{
+		window.open('/pop/exam_print.html', 'examPrint','width=500,height=320,left=20,top=0,status=0,scrollbars=0');
+	}
+
+//	신종 코로나바이러스 감염병 예방을 위한 응시자 안내문
+/*
+	if (getCookie("info_corona") != "no") {
+		window.open('/pop/cpa_info_corona.html', 'info_plan','width=600,height=700,left=300,top=0,status=0,scrollbars=1');
+	}
+*/
+
+//	2021년도 공인회계사시험 2차합격자 발표
+/*
+	if (getCookie("examResult") != "no")	{
+		window.open('/pop/cpaExam_result.html', 'examResult','width=320,height=340,left=650,top=0,status=0,scrollbars=0');
+	}
+*/
+
+
+//popupLayer
+function setCookie( name, value, expiredays ) {
+   var todayDate = new Date();
+    todayDate.setDate( todayDate.getDate() + expiredays );
+    document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+   }
+
+  function closePop() {
+   //if ( document.pop_form.chkbox.checked ){
+   // setCookie( "maindiv", "done" , 1 );
+   //}
+   document.all['popLayer'].style.visibility = "hidden";
+  }
+//]]>
+</script>
+<!--div id="popLayer" style="position:absolute;width:605px;top:20px;left:10%;z-index:100;line-height:1.5;background-color:#fff;border:5px solid #666;">
+	<div>
+    <ul>
+      <li style="height:270px;padding:20px 30px;">
+        <p><strong style="font-size:16px;">금융위원회 공고 제2018-76호</strong></p>
+        <p style="margin-top:15px;"><strong style="font-size:20px;">2018년도 제53회 공인회계사 제1차시험 합격자 공고</strong></p>
+				<p style="font-size:13px;padding:10px 0;">2018년 2월 11일 실시한 제53회 공인회계사 제1차시험의 합격자 명단을 게시하오니 확인하시기<br /> 바랍니다.</p>
+				<p class="ar">2018년 3월 16일<br />
+					<strong style="font-size:16px;">금융위원회위원장</strong>
+				</p>
+				<p class="mt15">※ 제1차시험 합격자 명단은 금융위원회(<a href="http://www.fsc.go.kr" target="_blank" title="새창열기">http://www.fsc.go.kr</a>) 및 금융감독원(<a href="http://cpa.fss.or.kr" target="_blank" title="새창열기">http://cpa.fss.or.kr</a>) 홈페이지에서 열람 가능합니다.</p>
+				<p class="ac mt20"><a href="https://cpa.fss.or.kr/pop/185301_20180316.html" target="_blank" title="새창열기" style="color:#fff;padding:10px 20px;background-color:#0081ba;">합격자 명단 보기</a></p>
+      </li>
+		</ul>
+  </div>
+
+	<div class="close ar" style="border-top:1px solid #ddd;">
+    <form name="pop_form">
+    <span id="popClose" style="margin-right:10px;"><a href="javascript:closePop();">닫기</a></span>
+    </form>
+	</div>
+</div>
+
+<script language="Javascript">
+  cookiedata = document.cookie;
+  if ( cookiedata.indexOf("maindiv=done") < 0 ){
+  document.all['popLayer'].style.visibility = "visible";
+   }
+   else {
+    document.all['popLayer'].style.visibility = "hidden";
+  }
+</script-->
+
+<div id="m_contents">
+				<div class="m_menu">
+					<ol>
+
+						<li class="m01">
+							<dl>
+								<dt><img src="https://cpa.fss.or.kr/images/main/m_menu_dt01.gif" alt="1. 시험안내"></dt>
+								<dd><img src="https://cpa.fss.or.kr/images/main/m_menu_dd01.gif" alt="공인회계사 시험에 대한 전반적인 안내를 해드리고 있습니다."></dd>
+								<dd class="btn"><a href="https://cpa.fss.or.kr/cpa/guide/history.action"><img src="https://cpa.fss.or.kr/images/common/btn/btn_progress01.gif" alt="시험안내 진행"></a></dd>
+							</dl>
+						</li>
+						<li class="m02">
+							<dl>
+								<dt><img src="https://cpa.fss.or.kr/images/main/m_menu_dt02.png" alt="2. 시험서류접수"></dt>
+								<dd><img src="https://cpa.fss.or.kr/images/main/m_menu_dd02.png" alt="공인회계사 시험에 대한 서류접수를 하실 수 있습니다."></dd>
+								<dd class="btn">
+										<a href="https://cpa.fss.or.kr/cpa/papers/persuade/reqst_form.action?catmenu=CP_03_01">
+
+										<img src="https://cpa.fss.or.kr/images/common/btn/btn_progress02.gif" alt="시험서류접수 진행">
+
+
+
+										</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="mn03">
+							<dl>
+								<dt><img src="https://cpa.fss.or.kr/images/main/m_menu_dt03.png" alt="3. 원서접수"></dt>
+								<dd><img src="https://cpa.fss.or.kr/images/main/m_menu_dd03.png" alt="공인회계사 시험에 대한 원서접수를 하실 수 있습니다."></dd>
+								<dd class="btn">
+									<a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_01">
+
+
+									<img src="https://cpa.fss.or.kr/images/common/btn/btn_nproceed.png" alt="원서접수 미진행">
+
+
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li class="m04">
+							<dl>
+								<dt><img src="https://cpa.fss.or.kr/images/main/m_menu_dt04.png" alt="4 .응시표 출력"></dt>
+								<dd><img src="https://cpa.fss.or.kr/images/main/m_menu_dd04.png" alt="공인회계사 시험에 대한 응시표 출력을 하실 수 있습니다."></dd>
+								<dd class="btn">
+									<a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_06">
+
+									<img src="https://cpa.fss.or.kr/images/common/btn/btn_progress04.gif" alt="응시표 출력 진행">
+
+
+
+
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<!--li class="m05">
+							<dl>
+								<dt><img src="https://cpa.fss.or.kr/images/main/m_menu_dt05.gif" alt="5 .합격자 발표" /></dt>
+								<dd><img src="https://cpa.fss.or.kr/images/main/m_menu_dd05.gif" alt="공인회계사 시험에 대한 합격자 발표를 확인 하실 수 있습니다." /></dd>
+								<dd class="btn">
+									<a href="https://cpa.fss.or.kr/cpa/reqst/psexam_list.action">
+										<img src="https://cpa.fss.or.kr/images/common/btn/btn_progress05.gif" alt="합격자 발표 진행" />
+									</a>
+								</dd>
+							</dl>
+						</li-->
+						<li class="mn05">
+							<dl>
+								<dt><img src="https://cpa.fss.or.kr/images/main/m_menu_dt05.gif" alt="5 .합격자 발표"></dt>
+								<dd><img src="https://cpa.fss.or.kr/images/main/m_menu_dd05.gif" alt="공인회계사 시험에 대한 합격자 발표를 확인 하실 수 있습니다."></dd>
+								<dd class="btn">
+
+
+
+										<img src="https://cpa.fss.or.kr/images/common/btn/btn_nproceed.png" alt="합격자 발표 미진행">
+
+
+								</dd>
+							</dl>
+						</li>
+
+					</ol>
+				</div>
+				<div id="article_tab">
+					<h2 id="st1" class="h2Latest1"><a href="#stab1" class="tab"><img src="https://cpa.fss.or.kr/images/main/tab01_on.gif" alt="시험공고"></a></h2>
+					<div id="stab1" class="divLatest" style="display: block;">
+						<ul>
+
+
+							<li><a href="https://cpa.fss.or.kr/cpa/guide/exam_pblanc_view.action?SEQNO=6162">2022년도 제57회 공인회계사 제1차시험 장...</a><span>2022-02-09</span></li>
+
+							<li><a href="https://cpa.fss.or.kr/cpa/guide/exam_pblanc_view.action?SEQNO=6062">2022년도 제57회 공인회계사시험 시행계획 ...</a><span>2021-11-26</span></li>
+
+							<li><a href="https://cpa.fss.or.kr/cpa/guide/exam_pblanc_view.action?SEQNO=6002">2021년도 제56회 공인회계사 제2차시험 합...</a><span>2021-08-27</span></li>
+
+							<li><a href="https://cpa.fss.or.kr/cpa/guide/exam_pblanc_view.action?SEQNO=5962">2022년도 제57회 공인회계사시험 서류접수...</a><span>2021-08-11</span></li>
+
+
+
+						</ul>
+						<p id="stab1More" class="moreLatest"><a href="https://cpa.fss.or.kr/cpa/guide/exam_pblanc_list.action"><img src="https://cpa.fss.or.kr/images/main/btn_more.gif" alt="시험공고 더보기"></a></p>
+					</div><!-- //stab1 -->
+					<h2 id="st2" class="h2Latest2"><a href="#stab2" class="tab"><img src="https://cpa.fss.or.kr/images/main/tab02.gif" alt="공지사항"></a></h2>
+					<div id="stab2" class="divLatest" style="display: none;">
+						<ul>
+
+
+							<!--li><a href="https://cpa.fss.or.kr/cpa/guide/notice_view.action?SEQNO=6242">2022년 경력자 제1차시험 면제신청 관련 안...</a><span>2022-03-14</span></li-->
+							<li><a href="https://cpa.fss.or.kr/cpa/guide/notice_view.action?SEQNO=6242">2022년 경력자 제1차시험 면제신청 관련 안...</a><span>2022-03-14</span></li>
+
+							<!--li><a href="https://cpa.fss.or.kr/cpa/guide/notice_view.action?SEQNO=6244">2022년 상반기 과목인정 신청 관련 안내</a><span>2022-03-14</span></li-->
+							<li><a href="https://cpa.fss.or.kr/cpa/guide/notice_view.action?SEQNO=6244">2022년 상반기 과목인정 신청 관련 안내</a><span>2022-03-14</span></li>
+
+							<!--li><a href="https://cpa.fss.or.kr/cpa/guide/notice_view.action?SEQNO=6223">2022년 제57회 공인회계사 제1차시험 이의...</a><span>2022-03-10</span></li-->
+							<li><a href="https://cpa.fss.or.kr/cpa/guide/notice_view.action?SEQNO=6223">2022년 제57회 공인회계사 제1차시험 이의...</a><span>2022-03-10</span></li>
+
+							<!--li><a href="https://cpa.fss.or.kr/cpa/guide/notice_view.action?SEQNO=6205">2022년도 제57회 공인회계사 제1차시험 응...</a><span>2022-02-28</span></li-->
+							<li><a href="https://cpa.fss.or.kr/cpa/guide/notice_view.action?SEQNO=6205">2022년도 제57회 공인회계사 제1차시험 응...</a><span>2022-02-28</span></li>
+
+
+
+						</ul>
+						<p id="stab2More" class="moreLatest"><a href="https://cpa.fss.or.kr/cpa/guide/notice_list.action"><img src="https://cpa.fss.or.kr/images/main/btn_more.gif" alt="공지사항 더보기"></a></p>
+					</div><!-- //stab2 -->
+			</div><!-- // article_tab -->
+			<script type="text/javascript">initTabMenu("article_tab");</script>
+				<div class="main_search">
+					<div class="docu">
+						<h2><a href="https://cpa.fss.or.kr/cpa/member/my_doc_view.action"><img src="https://cpa.fss.or.kr/images/main/tit_docu.gif" alt="내문서보기"></a></h2>
+						<p><a href="https://cpa.fss.or.kr/cpa/member/my_doc_view.action"><img src="https://cpa.fss.or.kr/images/main/btn_go01.gif" alt="내문서보기 자세히보기"></a></p>
+					</div>
+					<div class="courses">
+						<form action="/cpa/pds/recon_subject_list.action" method="post">
+						<input type="hidden" name="searchType" value="01">
+							<fieldset>
+								<legend>학점인정과목 검색</legend>
+								<h2><img src="https://cpa.fss.or.kr/images/main/tit_courses.gif" alt="학점인정과목 검색"></h2>
+								<p class="t_search">
+									<input type="text" name="searchName" id="t_search" class="i_search" title="검색어입력">
+									<input type="submit" id="search-button" value="" title="검색" class="search_btn">
+								</p>
+								<ul>
+									<li><img src="https://cpa.fss.or.kr/images/main/txt_courses01.gif" alt="정확한 검색을 위해"></li>
+									<li><a href="#" id="help"><img src="https://cpa.fss.or.kr/images/main/btn_help.gif" alt="Help"></a></li>
+								</ul>
+
+							</fieldset>
+						</form>
+					</div><!-- // courses -->
+				</div><!-- // main_search -->
+				<div class="m_list">
+					<div class="schedule">
+						<h2><img src="https://cpa.fss.or.kr/images/main/tit_schedule.gif" alt="일정안내"></h2>
+						<ul>
+
+
+						<li><span class="d_day">
+
+						D-0
+
+
+						</span><div><span class="date">22.03.21~22.03.29</span>경력자제1차시험면제신청</div></li>
+
+						<li><span class="d_day">
+
+						D-0
+
+
+						</span><div><span class="date">22.03.21~22.03.29</span>과목인정신청</div></li>
+
+
+
+						</ul>
+					</div><!-- // schedule -->
+
+					<ul class="q_menu">
+						<li><a href="https://cpa.fss.or.kr/cpa/guide/faq_list.action"><img src="https://cpa.fss.or.kr/images/main/faq.gif" alt="FAQ 자주묻는질문"></a></li>
+						<li><a href="https://cpa.fss.or.kr/cpa/pds/qna_list.action"><img src="https://cpa.fss.or.kr/images/main/qna.gif" alt="Q&amp;A 질문과 답변"></a></li>
+					</ul>
+				</div><!-- // m_list -->
+			</div><!-- // m_contents -->
+
+
+
+	<div id="quick" style="top: 0px;">
+			<h3><img src="https://cpa.fss.or.kr/images/common/tit_quick.png" alt="quick menu"></h3>
+			<ul>
+				<li class="pt0"><a href="https://cpa.fss.or.kr/cpa/format/reqst_process.action?catmenu=CP_04_01"><img src="https://cpa.fss.or.kr/images/common/quick_m01.gif" alt="인터넷 원서접수"></a></li>
+				<li><a href="5.html"><img src="https://cpa.fss.or.kr/images/common/quick_m02.gif" alt="성적조회"></a></li>
+				<li><a href="https://cpa.fss.or.kr/cpa/reqst/psexam_list.action"><img src="https://cpa.fss.or.kr/images/common/quick_m03.gif" alt="합격자조회"></a></li>
+				<li><a href="https://cpa.fss.or.kr/cpa/pds/qna_list.action"><img src="https://cpa.fss.or.kr/images/common/quick_m04.gif" alt="질문과답변"></a></li>
+				<li><a href="https://cpa.fss.or.kr/cpa/guide/faq_list.action"><img src="https://cpa.fss.or.kr/images/common/quick_m05.gif" alt="자주묻는질문"></a></li>
+				<li><a href="https://cpa.fss.or.kr/cpa/pds/etc_list.action"><img src="https://cpa.fss.or.kr/images/common/quick_m06.gif" alt="길라잡이"></a></li>
+				<li class="last"><img src="https://cpa.fss.or.kr/images/common/quick_m08.gif" alt="민원상담전화 금감원콜센터 1332"></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+		//<![CDATA[
+			var quick_menu = $('#quick');
+			var quick_top = 0;
+
+			/* quick menu initialization */
+			quick_menu.css('top', $(window).height() );
+			$(document).ready(function(){
+			quick_menu.animate( { "top": $(document).scrollTop() + quick_top +"px" }, 500 );
+			$(window).scroll(function(){
+			quick_menu.stop();
+			quick_menu.animate( { "top": $(document).scrollTop() + quick_top + "px" }, 1000 );
+			});
+			});
+			//]]>
+		</script>
+
+		</div><!-- // container -->
+	</div><!-- // m_container -->
+
+<script type="text/javascript">
+//<![CDATA[
+
+	$(document).ready(function(){
+		if($(".tab_list").size() > 0){
+			var tabOn = $(".tab_list").find("li.on").text();
+			var titleTx = document.title;
+			$("title").text(tabOn + " | " + titleTx);
+	}
+
+		var ImageSize=$('.banner_list').find("li").size();
+		var ImageThis=1;
+		$('.left').click(function(){
+			ImageThis--;
+			ImageChagen(0);
+			return false;
+		});
+		$('.right').click(function(){
+			ImageThis++;
+			ImageChagen(1);
+			return false;
+		});
+
+		function ImageChagen(a){
+
+		if(ImageThis<=0 || ImageSize<=ImageThis){
+
+			if(a==0){
+				ImageThis=ImageSize;
+
+			}else{
+				ImageThis=0;
+			}
+			ImageFor(ImageSize-1,0);
+		}else
+			ImageFor(ImageThis-1,ImageThis);
+
+		}
+		function ImageFor(a,b){
+			for(var i=0;i<ImageSize;i++){
+				if(i==a || i==b){
+						$(".banner_list li:eq("+i+")").show();
+					if(i==a)
+						$(".banner_list li:eq("+i+")").attr("class","first");
+					if(i==b)
+						$(".banner_list li:eq("+i+")").attr("class","last");
+				}else{
+				$(".banner_list li:eq("+i+")").hide();
+				$(".banner_list li:eq("+i+")").removeClass();
+				}
+			}
+			//alert($(".banner_list").html());
+		}
+
+	});
+
+	    $(function() {
+	        $( "#emailNos" ).dialog({
+	            autoOpen: false,
+	            show: "blind",
+	            hide: "down"
+	        });
+
+	        $( "#emailNo" ).click(function() {
+	        	$( "#emailNos" ).dialog({ resizable: false });
+	        	$( "#emailNos" ).dialog( "option","minWidth",530 );
+	        	$( "#emailNos" ).dialog( "option","minHeight",199 );
+	            $( "#emailNos" ).dialog( "open" );
+	            return false;
+	        });
+	        $( "#viewerNos" ).dialog({
+	            autoOpen: false,
+	            show: "blind",
+	            hide: "down"
+	        });
+
+	        $( "#viewerNo" ).click(function() {
+	        	$( "#viewerNos" ).dialog({ resizable: false });
+	        	$( "#viewerNos" ).dialog( "option","minWidth",780 );
+	        	$( "#viewerNos" ).dialog( "option","minHeight",590 );
+	            $( "#viewerNos" ).dialog( "open" );
+	            return false;
+	        });
+
+	        $('.ui-dialog-titlebar-close').click(function(){
+	        	var $target = $(this).closest('.ui-dialog');
+	        	if($target.attr('aria-labelledby') == 'ui-id-1'){ $('#help').focus();}
+	        	else if($target.attr('aria-labelledby') == 'ui-id-2'){ $('#emailNo').focus();}
+	        	else if($target.attr('aria-labelledby') == 'ui-id-3'){ $('#viewerNo').focus();}
+	        });
+
+	        /* var target = $('#ifrmaeEmail').contents().find('.close a');
+	        target.click(function(){
+	        	$(this).closest('.ui-dialog').css('display','none');
+	        	console.log('cc');
+	        }) */
+	    });
+	    $('#ifrmaeEmail').contents().find('.close a').css('border','1px solid red');
+
+//]]>
+</script>
+<div id="footer">
+		<div class="foot_in">
+			<p class="logo"><img src="https://cpa.fss.or.kr/images/common/f_logo.gif" alt="금융감독원 공인회계사시험"></p>
+			<div class="f_menu">
+				<ul>
+					<li class="pl0"><a href="https://www.fss.or.kr/fss/main/contents.do?menuNo=200705" target="_blank" title="새창"><img src="https://cpa.fss.or.kr/images/common/f_menu01.gif" alt="개인정보처리방침"></a></li>
+					<!-- <li><a href="#" id="emailNo" ><img src="https://cpa.fss.or.kr/images/common/f_menu02.gif" alt="이메일무단수집거부" /></a></li> -->
+					<li><a href="https://www.fss.or.kr/fss/main/contents.do?menuNo=200702" target="_blank" title="새창"><img src="https://cpa.fss.or.kr/images/common/f_menu02.gif" alt="이메일무단수집거부"></a></li>
+					<!-- <li><a href="https://cpa.fss.or.kr/cpa/etc/guide_helper.action"><img src="https://cpa.fss.or.kr/images/common/f_menu03.gif" alt="안내도우미" /></a></li> -->
+					<li><a href="https://cpa.fss.or.kr/cpa/etc/job_charger.action"><img src="https://cpa.fss.or.kr/images/common/f_menu04.gif" alt="업무담당자안내"></a></li>
+					<li><a href="https://cpa.fss.or.kr/cpa/etc/map.action"><img src="https://cpa.fss.or.kr/images/common/f_menu05.gif" alt="찾아오시는길"></a></li>
+					<li><a href="https://cpa.fss.or.kr/cpa/etc/site.action"><img src="https://cpa.fss.or.kr/images/common/f_menu06.gif" alt="연결사이트"></a></li>
+					<!-- <li class="last"><a href="#" id="viewerNo"><img src="https://cpa.fss.or.kr/images/common/f_menu07.gif" alt="뷰어다운로드" /></a></li> -->
+					<li class="last"><a href="https://www.fss.or.kr/fss/main/contents.do?menuNo=200703" target="_blank" title="새창"><img src="https://cpa.fss.or.kr/images/common/f_menu07.gif" alt="뷰어다운로드"></a></li>
+				</ul>
+				<address><img src="https://cpa.fss.or.kr/images/common/add.gif" alt="서울특별시 영등포구 여의대로 38 금융감독원 공인회계사시험관리팀 (우:07321) 대표전화 : 02-3145-5114"></address>
+				<p><img src="https://cpa.fss.or.kr/images/common/copy.gif" alt="Copyright (c) financial supervisory service.   all rights reserved."></p>
+			</div><!-- // f_menu -->
+
+			<!-- <div id="emailNos" title="이메일주소 집단 수집금지 | 금융감독원"  style="width:600px;height:199px;display:none;">
+			<iframe id="ifrmaeEmail" src="http://www.fss.or.kr/fss/common/popup/email.html" style="width:500px;height:199px" scrolling="no" title="이메일주소 집단 수집거부"></iframe>
+			</div>
+			<div id="viewerNos" title="뷰어 및 보안프로그램 다운로드 | 금융감독원"  style="width:750px;height:590px;display:none;">
+			<iframe id="iframeViewer" src="../fss/common/popup/viewerdown.html" style="width:750px;height:590px" scrolling="no" title="뷰어 및 보안프로그램 다운로드"></iframe>
+			</div> -->
+
+			<div class="f_banner">
+				<ul class="btn">
+					<li class="left"><a href="#"><img src="https://cpa.fss.or.kr/images/common/btn_f_banner01.gif" alt="이전 슬라이드로 이동"></a></li>
+					<li class="right"><a href="#"><img src="https://cpa.fss.or.kr/images/common/btn_f_banner02.gif" alt="다음 슬라이드로 이동"></a></li>
+				</ul>
+				<ul class="banner_list">
+					<li><a class="first" href="https://www.fss.or.kr" target="_blank" title="새창열림"><img src="https://cpa.fss.or.kr/images/common/banner01.gif" alt="금융감독원"></a></li>
+					<li class="last"><a href="http://www.fsc.go.kr/" target="_blank" title="새창열림"><img src="https://cpa.fss.or.kr/images/common/banner02.gif" alt="금융위원회"></a></li>
+					<li style="display:none;"><a href="http://www.kicpa.or.kr/" target="_blank" title="새창열림"><img src="https://cpa.fss.or.kr/images/common/banner03.gif" alt="한국공인회계사회"></a></li>
+					<li style="display:none;"><a href="http://www.nile.or.kr/" target="_blank" title="새창열림"><img src="https://cpa.fss.or.kr/images/common/banner04.gif" alt="평생교육진흥원"></a></li>
+					<li style="display:none;"><a href="http://www.cb.or.kr/" target="_blank" title="새창열림"><img src="https://cpa.fss.or.kr/images/common/banner05.gif" alt="평생교육진흥원 학점은행"></a></li>
+					<li style="display:none;"><a href="http://bdes.nile.or.kr/" target="_blank" title="새창열림"><img src="https://cpa.fss.or.kr/images/common/banner06.gif" alt="평생교육진흥원 독학학위검정센터"></a></li>
+				</ul>
+			</div>
+
+			<span class="wa"><a href="https://www.fss.or.kr/fss/common/popup/wamark_cpa.html" target="_blank" title="웹접근성 품질 인증서[새창으로 이동]" onclick="cf_popupWindow(this.href, 'wamark', 600, 790, 'yes', 'no', '1'); return false;"><img src="https://cpa.fss.or.kr/images/common/wa_mark.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)"></a></span>
+		</div>
+	</div>
+
+<!--  easykeytec 키보드보안 제거 20200319
+
+<script type="text/x-x-javascript" language="x-x-javascript" src="http://update.easykeytec.co.kr/easykeytec/org/fss/easykeytec_fss.js"></script>
+
+-->
+
+	<!-- // footer -->
+</div><!-- // wrap -->
+
+
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-id-1" style="display: none; z-index: 1000; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-id-1" class="ui-dialog-title">검색도움말</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="p_warp ui-dialog-content ui-widget-content" style="">
+
+									<div class="">
+										<h2 class="bul_01p">과목명은 띄어 쓰지 아니하고 모두 붙여서 표기</h2>
+										<p class="ml25">예) 경영혁신과 회계 → 경영혁신과회계</p>
+										<h2 class="bul_01p">로마자는 아라비아숫자로 표기하며, 괄호는 생략</h2>
+										<p class="ml25">예) Ⅰ → 1, Ⅰ,Ⅱ → 1,2, (Ⅰ) → 1, (Ⅰ,Ⅱ) → 1,2 </p>
+
+										<h2 class="bul_01p">과목명 중간의 반점(","), 온점("."), 가운데점("·")은 해당점이 없는 과목명과 동일한 것으로 간주함. 다만, 과목명 중간의 슬래시("/")는 그대로 유지</h2>
+										<p class="ml25">예) 운송,물류론 → 운송물류론,  재무관리,회계 → 재무관리회계<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;선물·옵션 → 선물옵션 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;재무/관리회계 → 슬래시("/") 유지</p>
+
+										<h2 class="bul_01p">과목명 끝의 아라비아숫자와 함께 쓰인 온점("."), 가운데점("·"), 슬래쉬("/")등 특수문자는 반점(",")으로 표기하며, 괄호는 생략</h2>
+										<p class="ml25">예) (1)  → 1, (1,2) → 1,2, 1.2 → 1,2, 1·2 → 1,2
+											<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1.2) → 1,2, (1·2) → 1,2, 1/2 → 1,2, (1/2) → 1,2</p>
+
+										<!--h2 class="bul_01p">가운데점(&quot;&middot;&quot;)이 있는 과목명과 가운데점(&quot;&middot;&quot;)이 없는 과목명은 동일한 과목으로 간주</h2>
+										<p class="ml25">예) 운송&middot;물류론 = 운송물류론 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;선물&middot;옵션 = 선물옵션</p-->
+
+										<h2 class="bul_01p">영어의 경우 맨 앞 글자 및 명사의 시작은 대문자로 하며 전치사 등은 소문자로 표기. 다만 통상 사용되는 "e-" 또는 "e" 등은 소문자로 함</h2>
+										<p class="ml25">예) PROGRAM DESIGN AND VALUATION → ProgramDesignandValuation</p>
+										<h2 class="bul_01p">한자는 한글로 표기</h2>
+										<p class="ml25">예) e-business下의회계학 → e-Business하의회계학</p>
+									</div>
+								</div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1000;"></div></div></body></html>
